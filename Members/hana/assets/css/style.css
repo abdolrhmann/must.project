@@ -1,0 +1,126 @@
+html, body {
+    height: 1000px;
+    padding: 0000;
+    margin: 0000;
+}
+
+div {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+#div1 {
+    background: #DB7093;
+}
+
+#div2 {
+    background: white;
+}
+
+#div3 {
+    background: #6b6b47;
+}
+
+#div4 {
+    background: #E0E0E0;
+}
+
+.icons {
+    position: absolute;
+    left: -3%;
+    top: -2%;
+    list-style-type: none;
+}
+
+.age {
+    position: absolute;
+    float: right;
+    right: 20px;
+    top: 113px;
+    color: white;
+}
+
+.icon-style {
+    padding: 5px 0 0 4px;
+}
+
+.text {
+    font-size: 25px;
+    color: white;
+    padding: 0000;
+}
+.main{
+    margin: 50px auto;
+    width: 60%;
+}
+.main .progressBar {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.progressBar-style {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.title {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    z-index: 10000;
+    line-height: 2.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10000;
+}
+.progress{
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
+}
+.htmlColor{
+    background-color: #b71c1c;
+}
+.cssColor{
+    background: #4a148c;
+}
+.jsColor{
+    background: #1a237e;
+}
+.phpColor{
+    background: #1b5e20;
+}
+.html{
+    background: #ec407a;
+}
+.css{
+    background: #ab47bc;
+}
+.js{
+    background: #5c6bc0;
+}
+.php{
+    background: #66bb6a;
+}
